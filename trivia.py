@@ -34,6 +34,7 @@ def get_answer(question,answer):
        correct += 1
     else:
        print("Sorry, wrong answer!")
+       print(f"The answer was: {choices[questions.index(question)][answers[questions.index(question) ]]}")
 
 running = True
 while running:
